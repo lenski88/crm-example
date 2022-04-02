@@ -1,0 +1,9 @@
+{
+    "navigationItems" : [
+        "Разработчики"
+    ],
+    "developers": [
+        {"id":1, "name": "Иванов И.И", "technology": "Back-end", "level": "Junior", "hasProject": true, "isClose": true, "salary": 1000, "history": []},
+        {"id":2, "name": "Петров П.П", "technology": "Front-end/React", "level": "Junior", "hasProject": false, "isClose": false, "salary": 1000, "history": []}
+    ]
+}
