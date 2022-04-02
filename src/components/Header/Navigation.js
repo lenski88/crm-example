@@ -1,13 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import { useDispatch } from "react-redux";
+import { developersListAC } from "../../redux/actions/actions";
 
-const { navigationItems } = require("../../data/navigation.json");
+const { navigationItems } = require("../../data/data.json");
 
 const Navigation = () => {
+  const dispatch = useDispatch();
   const listNav = navigationItems.map((item) => {
     return <button key={item}>{item}</button>;
   });
-  return <StyledNavigation>{listNav}</StyledNavigation>;
+  const handleDevelopers = () => {
+    console.log('fff');
+    dispatch(developersListAC());
+  }
+  return <StyledNavigation onClick={handleDevelopers}>{listNav}</StyledNavigation>;
 };
 
 export default Navigation;
