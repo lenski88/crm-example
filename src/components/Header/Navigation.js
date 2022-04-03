@@ -11,7 +11,6 @@ const Navigation = () => {
     return <button key={item}>{item}</button>;
   });
   const handleDevelopers = () => {
-    console.log('fff');
     dispatch(developersListAC());
   }
   return <StyledNavigation onClick={handleDevelopers}>{listNav}</StyledNavigation>;
@@ -32,7 +31,6 @@ const StyledNavigation = styled.nav`
     outline: none;
     color: #eee;
     font-size: 1.6rem;
-    margin-top: 24px;
     margin-right: 5%;
     padding: 5px 10px;
     font-family: Arial, Helvetica, sans-serif;

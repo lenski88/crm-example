@@ -14,7 +14,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0b1f2a
+  background-color: #0b1f2a;
+  max-width: 1400px;
+  margin: 0 auto
+}
+
+ul, li {
+  list-style: none;
 }
 `;
 

@@ -21,13 +21,15 @@ export default Header;
 const StyledHeader = styled.header`
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   height: 50px;
   color: #eee;
+  margin: 20px 0 0 0;
+  border-bottom: 1px solid #fff;
   figure {
-      width:100px;
-      height: 65px;
-      margin: 10px 0
+    width: 100px;
+    height: 49px;
+    margin: 0;
   }
   img {
     width: 100%;
