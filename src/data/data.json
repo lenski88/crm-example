@@ -6,10 +6,10 @@
         "id": 1,
         "name": "Иванов И.И",
         "technology": "Back-end",
-        "level": "Junior",
+        "level": "Middle",
         "hasProject": true,
         "isClose": true,
-        "salary": 1000,
+        "salary": 2100,
         "history": []
       },
       {
@@ -19,7 +19,7 @@
         "level": "Junior",
         "hasProject": false,
         "isClose": false,
-        "salary": 1000,
+        "salary": 1300,
         "history": []
       }
     ]

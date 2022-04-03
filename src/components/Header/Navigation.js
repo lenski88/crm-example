@@ -26,7 +26,7 @@ const StyledNavigation = styled.nav`
   cursor: default;
   button {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid green;
     border-radius: 3px;
     outline: none;
     color: #eee;

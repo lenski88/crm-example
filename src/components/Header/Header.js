@@ -25,7 +25,8 @@ const StyledHeader = styled.header`
   height: 50px;
   color: #eee;
   margin: 20px 0 0 0;
-  border-bottom: 1px solid #fff;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid green;
   figure {
     width: 100px;
     height: 49px;
